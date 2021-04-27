@@ -1,0 +1,179 @@
+Hallo, bevor es los geht, werden vorab ein paar Infos benötigt, damit der Dialogtext personalisiert werden kann. 
+Die angegebenen Daten werden vertraulich behandelt und werden nur lokal auf deinem Gerät gespeichert.
+Wenn du willst, kannst du die Felder auch freilassen.
+@input PlayerFirstName summary:"Vorname" value:"Erika"
+@stop
+@input PlayerName summary:"Nachname" value:"Musterfrau"
+@stop
+@input PlayerBusinessName summary:"Der Name deines Unternehmens" value:"Unternehmensname"
+@stop
+@input PlayerBusinessIdea summary:"Deine Gründungsidee" value:"Gründungsidee"
+@stop
+@input PlayerBusinessGoal summary:"Ziel meines Unternehmens ist es:" value:"Unternehmensziel"
+@stop
+@set MaleChar="Herr Mayer"
+
+
+@back Intro_Klickdummy id:Intro_Klickdummy
+Intro: Lorem Ipsum Bla Bla Bla
+Intro: Bla Bla Test 
+Intro: Test Bla Lorem Ipsum
+
+@back Office_Klickdummy.Crossfade id:Office_Klickdummy
+
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Talking
+{MaleChar}: Guten Tag, Frau {PlayerName}. Haben Sie gut hergefunden?
+@choice "Ja, es gab nur viel Verkehr." goto:.player_traffic
+@choice "Ja, aber es gab kaum Parkplätze." goto:.player_parkingSpot
+@choice "Ich habe das Gebäude zunächst nicht gefunden." goto:.player_proceed
+@stop
+
+;----------------------------------------------------------
+# player_traffic
+@char FemaleCharacter.Talking
+@char MaleCharacter.Neutral
+{PlayerFirstName}: Guten Tag. Ja, ich habe gut hergefunden.
+{PlayerFirstName}: Es war nur sehr viel Verkehr. Es freut mich, heute hier zu sein.
+
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Talking
+{MaleChar}: Das freut mich zu hören. Zu dieser Uhrzeit sind immer viele Leute unterwegs.
+@goto .mainDialogue
+
+;----------------------------------------------------------
+# player_parkingSpot
+@char FemaleCharacter.Talking
+@char MaleCharacter.Neutral
+{PlayerFirstName}: Guten Tag. Ja, ich habe gut hergefunden.
+{PlayerFirstName}: Es war nur schwer einen Parkplatz zu finden. Es freut mich, heute hier zu sein.  
+
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Talking
+{MaleChar}: Die Parksituation hier ist tatsächlich sehr schwierig. Die Angestellten beschweren sich auch ständig.
+@goto .mainDialogue
+
+;----------------------------------------------------------
+# player_proceed
+@char FemaleCharacter.Talking
+@char MaleCharacter.Neutral
+{PlayerFirstName}: Guten Tag. Ich habe das Gebäude zuerst nicht gesehen, 
+{PlayerFirstName}: aber dann doch noch die richtige  Straße gefunden. Es freut mich, heute hier zu sein. 
+
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Talking
+{MaleChar}: Das kann jedem mal passieren. Die Straßenführung hier ist nicht die beste.
+@goto .mainDialogue
+
+;----------------------------------------------------------
+# mainDialogue
+{MaleChar}: Sie haben mir ja bereits Ihren vorläufigen Businessplan zugeschickt und er liest sich auch sehr gut.
+{MaleChar}: Könnten Sie mir dennoch in 2 - 3 Sätzen Ihre Gründungsidee pitchen?
+{PlayerFirstName}: Gerne. Also meine Idee ist {PlayerBusinessIdea}. Das Unternehmen soll den Namen {PlayerBusinessName} tragen. Ziel ist es {PlayerBusinessGoal}.
+
+{MaleChar}: Das hört sich nach einer sehr innovativen Idee an.
+{MaleChar}: Und Sie haben in Ihren Papieren gut herausgearbeitet, wie Sie damit einen Profit erzielen können.
+{MaleChar}: Ich halte eine Förderung für gut möglich,
+{MaleChar}: allerdings ist es natürlich den Förderern wichtig, dass das Unternehmen über lange Zeit besteht und Geld einbringt.
+{MaleChar}: Da es in der Vergangenheit schon vorkam, dass ein Unternehmen wegen Kindern aufgegeben werden musste,
+{MaleChar}: würde es mich interessieren, wie es bei Ihnen mit dem Kinderwunsch bzw. mit dem Familienstand steht.
+
+;------------Popup mit Erklärung einfügen
+;@showUI PopUp
+;@char FemaleCharacter.Neutral
+;@stop
+;------------Popup Ende
+
+@choice "Ich habe bereits Kinder, aber es ist für mich kein Problem ein Unternehmen zu führen." goto:.children
+@choice "Ich habe noch keine Kinder und dies ist für mich die nächste Zeit auch nicht geplant." goto:.noChildren
+@choice "Meinen Kinderwunsch habe ich bereits bei der Unternehmensplanung mit bedacht." goto:.childDesire
+@choice "Ich finde diese Frage ungerechtfertigt und unpassend." goto:.inappropriatedQuestion
+@choice "Ich sehe keinen Grund, diese Frage beantworten zu müssen." goto:.noAnswer
+@stop
+
+# children
+@char FemaleCharacter.Talking
+@char MaleCharacter.Neutral
+{PlayerFirstName}: Ich habe bereits Kinder, aber es ist für mich kein Problem ein Unternehmen zu führen. Ich kann mich auf die Unterstützung meiner Familie verlassen!
+@set randomText=Random("neutral","positiv","rejecting")
+@goto .reaction_neutral if:randomText="neutral"
+@goto .reaction_positiv if:randomText="positiv"
+@goto .reaction_neutral if:randomText="rejecting"
+
+# noChildren
+@char FemaleCharacter.Talking
+@char MaleCharacter.Neutral
+{PlayerFirstName}: Ich habe noch keine Kinder und dies ist für mich die nächste Zeit auch nicht geplant.
+@set randomText=Random("neutral","positiv")
+@goto .reaction_neutral if:randomText="neutral"
+@goto .reaction_positiv if:randomText="positiv"
+
+# childDesire
+@char FemaleCharacter.Talking
+@char MaleCharacter.Neutral
+{PlayerFirstName}: Ich habe zwar einen Kinderwunsch, dies aber bereits bei der Unternehmensplanung mit bedacht. Es sollte mich also nicht behindern.
+@set randomText=Random("neutral","positiv","rejecting")
+@goto .reaction_neutral if:randomText="neutral"
+@goto .reaction_positiv if:randomText="positiv"
+@goto .reaction_neutral if:randomText="rejecting"
+
+# inappropriatedQuestion
+@char FemaleCharacter.Talking
+@char MaleCharacter.Neutral
+{PlayerFirstName}: Ich finde diese Frage ungerechtfertigt und unpassend. Hätten Sie sie auch einem Mann gestellt?
+@set randomText=Random("sorry1","sorry2","explaining")
+@goto .reaction_sorry1 if:randomText="sorry1"
+@goto .reaction_sorry2 if:randomText="sorry2"
+@goto .reaction_explaining if:randomText="explaining"
+
+# noAnswer
+@char FemaleCharacter.Talking
+@char MaleCharacter.Neutral
+{PlayerFirstName}: Ich sehe keinen Grund, diese Frage beantworten zu müssen.
+@set randomText=Random("sorry1","sorry2")
+@goto .reaction_sorry1 if:randomText="sorry1"
+@goto .reaction_sorry2 if:randomText="sorry2"
+
+;------------------------------Reactions
+# reaction_neutral
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Talking
+{MaleChar}: Ich verstehe.
+@goto .endDialogue
+
+# reaction_positiv
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Talking
+{MaleChar}: Das ist gut zu hören.
+@goto .endDialogue
+
+# reaction_rejecting
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Talking
+{MaleChar}: Sind Sie sich sicher? Ein Kind kann viel Zeit beanspruchen. Aber wenn Sie dies schon bedacht haben, wird es wohl passen.
+@goto .endDialogue
+
+# reaction_sorry1
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Surprised
+{MaleChar}: Es tut mir leid, so habe ich die Frage nicht gemeint. Natürlich müssen Sie die Frage nicht beantworten.
+@goto .endDialogue
+
+# reaction_sorry2
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Surprised
+{MaleChar}: Es tut mir leid, ich habe diese Frage gestellt, ohne nachzudenken. 
+{MaleChar}: Sie haben natürlich Recht. Ich werde auf meine nächsten Formulierungen besser achten.
+@goto .endDialogue
+
+# reaction_explaining
+@char FemaleCharacter.Neutral
+@char MaleCharacter.Talking
+{MaleChar}: Tatsächlich ja. Wir hatten auch schon den Fall, dass ein Mann während des Gründungsprozesses aussteigen musste, 
+{MaleChar}: weil er Vater wurde und die Einnahmen aus dem Unternehmen nicht für die Familie gereicht hätten.
+@goto .endDialogue
+
+;-------------------------------End of Dialogue
+# endDialogue
+@char MaleCharacter.Talking
+{MaleChar}: Ich habe bereits eine paar Förderungen herausgesucht, die zu Ihrer Gründungsidee passen würden.

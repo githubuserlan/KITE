@@ -1,0 +1,2058 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Elringus.Naninovel.Editor.dll:
+    - Naninovel.EditorResources
+    - Naninovel.FieldUndoData
+    Elringus.Naninovel.Runtime.dll:
+    - Naninovel.BackgroundsConfiguration
+    - Naninovel.BacklogMessage
+    - Naninovel.CGGalleryGrid
+    - Naninovel.CGGalleryGridSlot
+    - Naninovel.CharactersConfiguration
+    - Naninovel.ChoiceHandlersConfiguration
+    - Naninovel.EngineVersion
+    - Naninovel.FX.Animate
+    - Naninovel.FX.Blur
+    - Naninovel.FX.DepthOfField
+    - Naninovel.FX.DigitalGlitch
+    - Naninovel.FX.Rain
+    - Naninovel.FX.ShakeBackground
+    - Naninovel.FX.ShakeCamera
+    - Naninovel.FX.ShakeCharacter
+    - Naninovel.FX.ShakePrinter
+    - Naninovel.FX.Snow
+    - Naninovel.FX.SunShafts
+    - Naninovel.GameSettingsPreviewPrinter
+    - Naninovel.LabeledButton
+    - Naninovel.ManagedTextConfiguration
+    - Naninovel.ManagedTextProvider
+    - Naninovel.ProjectResources
+    - Naninovel.ReactToAspectRatio
+    - Naninovel.Script
+    - Naninovel.ScriptPlayerConfiguration
+    - Naninovel.ScriptableButton
+    - Naninovel.ScriptableLabeledButton
+    - Naninovel.ScriptableUIBehaviour
+    - Naninovel.StateConfiguration
+    - Naninovel.TextPrintersConfiguration
+    - Naninovel.TipsListItem
+    - Naninovel.UI.AuthorImage
+    - Naninovel.UI.AuthorNameTMProPanel
+    - Naninovel.UI.AuthorNameUIPanel
+    - Naninovel.UI.BacklogCloseButton
+    - Naninovel.UI.BacklogPanel
+    - Naninovel.UI.CGGalleryPanel
+    - Naninovel.UI.CGGalleryReturnButton
+    - Naninovel.UI.CGViewerPanel
+    - Naninovel.UI.ChatMessage
+    - Naninovel.UI.ChatPrinterPanel
+    - Naninovel.UI.ChoiceHandlerButton
+    - Naninovel.UI.ChoiceHandlerPanel
+    - Naninovel.UI.ClickThroughPanel
+    - Naninovel.UI.ConfirmationPanel
+    - Naninovel.UI.ContinueInputUI
+    - Naninovel.UI.ControlPanelAutoPlayButton
+    - Naninovel.UI.ControlPanelHideButton
+    - Naninovel.UI.ControlPanelLoadButton
+    - Naninovel.UI.ControlPanelLogButton
+    - Naninovel.UI.ControlPanelQuickLoadButton
+    - Naninovel.UI.ControlPanelQuickSaveButton
+    - Naninovel.UI.ControlPanelSaveButton
+    - Naninovel.UI.ControlPanelSettingsButton
+    - Naninovel.UI.ControlPanelSkipButton
+    - Naninovel.UI.ControlPanelTipsButton
+    - Naninovel.UI.ControlPanelTitleButton
+    - Naninovel.UI.EngineVersionText
+    - Naninovel.UI.ExternalScriptsBrowserPanel
+    - Naninovel.UI.ExternalScriptsBrowserReturnButton
+    - Naninovel.UI.GameSettingsAutoDelaySlider
+    - Naninovel.UI.GameSettingsBgmVolumeSlider
+    - Naninovel.UI.GameSettingsFontDropdown
+    - Naninovel.UI.GameSettingsFontSizeDropdown
+    - Naninovel.UI.GameSettingsGraphicsDropdown
+    - Naninovel.UI.GameSettingsLanguageDropdown
+    - Naninovel.UI.GameSettingsMasterVolumeSlider
+    - Naninovel.UI.GameSettingsMenu
+    - Naninovel.UI.GameSettingsMessageSpeedSlider
+    - Naninovel.UI.GameSettingsResolutionDropdown
+    - Naninovel.UI.GameSettingsReturnButton
+    - Naninovel.UI.GameSettingsScreenModeDropdown
+    - Naninovel.UI.GameSettingsSfxVolumeSlider
+    - Naninovel.UI.GameSettingsSkipModeDropdown
+    - Naninovel.UI.GameSettingsVoiceLocaleDropdown
+    - Naninovel.UI.GameSettingsVoiceVolumeSlider
+    - Naninovel.UI.GameStateSlot
+    - Naninovel.UI.GameStateSlotsGrid
+    - Naninovel.UI.LoadLoggerScrollRect
+    - Naninovel.UI.LoadingIcon
+    - Naninovel.UI.LoadingPanel
+    - Naninovel.UI.MovieUI
+    - Naninovel.UI.NavigatorPlayButton
+    - Naninovel.UI.NavigatorSyncButton
+    - Naninovel.UI.PauseUI
+    - Naninovel.UI.PingPongInputIndicator
+    - Naninovel.UI.RevealableTMProText
+    - Naninovel.UI.RevealableTextPrinterPanel
+    - Naninovel.UI.RevealableUIText
+    - Naninovel.UI.RollbackUI
+    - Naninovel.UI.SaveLoadMenu
+    - Naninovel.UI.SaveLoadMenuReturnButton
+    - Naninovel.UI.SceneTransitionUI
+    - Naninovel.UI.ScriptNavigatorPanel
+    - Naninovel.UI.TipsPanel
+    - Naninovel.UI.TipsReturnButton
+    - Naninovel.UI.TitleCGGalleryButton
+    - Naninovel.UI.TitleContinueButton
+    - Naninovel.UI.TitleExitButton
+    - Naninovel.UI.TitleExternalScriptsButton
+    - Naninovel.UI.TitleMenu
+    - Naninovel.UI.TitleNewGameButton
+    - Naninovel.UI.TitleSettingsButton
+    - Naninovel.UI.TitleTipsButton
+    - Naninovel.UI.ToastAppearance
+    - Naninovel.UI.ToastUI
+    - Naninovel.UI.TypingIndicator
+    - Naninovel.UI.VariableInputPanel
+    - Naninovel.UIConfiguration
+    Unity.2D.Animation.Editor.dll:
+    - UnityEditor.U2D.Animation.BoneGizmo
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.AspectRatioFitter
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11276}
+    - Class: 114
+      Script: {instanceID: 11278}
+    - Class: 114
+      Script: {instanceID: 11280}
+    - Class: 114
+      Script: {instanceID: 11282}
+    - Class: 114
+      Script: {instanceID: 11284}
+    - Class: 114
+      Script: {instanceID: 11286}
+    - Class: 114
+      Script: {instanceID: 11288}
+    - Class: 114
+      Script: {instanceID: 11412}
+    - Class: 114
+      Script: {instanceID: 11572}
+    - Class: 114
+      Script: {instanceID: 11614}
+    - Class: 114
+      Script: {instanceID: 11616}
+    - Class: 114
+      Script: {instanceID: 11624}
+    - Class: 114
+      Script: {instanceID: 11662}
+    - Class: 114
+      Script: {instanceID: 11726}
+    - Class: 114
+      Script: {instanceID: 11728}
+    - Class: 114
+      Script: {instanceID: 11738}
+    - Class: 114
+      Script: {instanceID: 11794}
+    - Class: 114
+      Script: {instanceID: 11882}
+    - Class: 114
+      Script: {instanceID: 11902}
+    - Class: 114
+      Script: {instanceID: 11906}
+    - Class: 114
+      Script: {instanceID: 11926}
+    - Class: 114
+      Script: {instanceID: 11968}
+    - Class: 114
+      Script: {instanceID: 12014}
+    - Class: 114
+      Script: {instanceID: 12102}
+    - Class: 114
+      Script: {instanceID: 12112}
+    - Class: 114
+      Script: {instanceID: 12118}
+    - Class: 114
+      Script: {instanceID: 12164}
+    - Class: 114
+      Script: {instanceID: 12200}
+    - Class: 114
+      Script: {instanceID: 12238}
+    - Class: 114
+      Script: {instanceID: 12258}
+    - Class: 114
+      Script: {instanceID: 12310}
+    - Class: 114
+      Script: {instanceID: 12350}
+    - Class: 114
+      Script: {instanceID: 12372}
+    - Class: 114
+      Script: {instanceID: 12382}
+    - Class: 114
+      Script: {instanceID: 12416}
+    - Class: 114
+      Script: {instanceID: 12420}
+    - Class: 114
+      Script: {instanceID: 12520}
+    - Class: 114
+      Script: {instanceID: 12540}
+    - Class: 114
+      Script: {instanceID: 12542}
+    - Class: 114
+      Script: {instanceID: 12586}
+    - Class: 114
+      Script: {instanceID: 12642}
+    - Class: 114
+      Script: {instanceID: 12682}
+    - Class: 114
+      Script: {instanceID: 12724}
+    - Class: 114
+      Script: {instanceID: 12752}
+    - Class: 114
+      Script: {instanceID: 12782}
+    - Class: 114
+      Script: {instanceID: 12786}
+    - Class: 114
+      Script: {instanceID: 12788}
+    - Class: 114
+      Script: {instanceID: 12820}
+    - Class: 114
+      Script: {instanceID: 12836}
+    - Class: 114
+      Script: {instanceID: 12840}
+    - Class: 114
+      Script: {instanceID: 12880}
+    - Class: 114
+      Script: {instanceID: 12980}
+    - Class: 114
+      Script: {instanceID: 13064}
+    - Class: 114
+      Script: {instanceID: 13074}
+    - Class: 114
+      Script: {instanceID: 13136}
+    - Class: 114
+      Script: {instanceID: 13170}
+    - Class: 114
+      Script: {instanceID: 13182}
+    - Class: 114
+      Script: {instanceID: 13206}
+    - Class: 114
+      Script: {instanceID: 13260}
+    - Class: 114
+      Script: {instanceID: 13312}
+    - Class: 114
+      Script: {instanceID: 13328}
+    - Class: 114
+      Script: {instanceID: 13340}
+    - Class: 114
+      Script: {instanceID: 13352}
+    - Class: 114
+      Script: {instanceID: 13414}
+    - Class: 114
+      Script: {instanceID: 13416}
+    - Class: 114
+      Script: {instanceID: 13470}
+    - Class: 114
+      Script: {instanceID: 13472}
+    - Class: 114
+      Script: {instanceID: 13494}
+    - Class: 114
+      Script: {instanceID: 13532}
+    - Class: 114
+      Script: {instanceID: 13598}
+    - Class: 114
+      Script: {instanceID: 13626}
+    - Class: 114
+      Script: {instanceID: 13792}
+    - Class: 114
+      Script: {instanceID: 13808}
+    - Class: 114
+      Script: {instanceID: 13820}
+    - Class: 114
+      Script: {instanceID: 13822}
+    - Class: 114
+      Script: {instanceID: 13974}
+    - Class: 114
+      Script: {instanceID: 14026}
+    - Class: 114
+      Script: {instanceID: 14138}
+    - Class: 114
+      Script: {instanceID: 14234}
+    - Class: 114
+      Script: {instanceID: 14258}
+    - Class: 114
+      Script: {instanceID: 14294}
+    - Class: 114
+      Script: {instanceID: 14306}
+    - Class: 114
+      Script: {instanceID: 14336}
+    - Class: 114
+      Script: {instanceID: 14354}
+    - Class: 114
+      Script: {instanceID: 14404}
+    - Class: 114
+      Script: {instanceID: 14418}
+    - Class: 114
+      Script: {instanceID: 14422}
+    - Class: 114
+      Script: {instanceID: 14462}
+    - Class: 114
+      Script: {instanceID: 14480}
+    - Class: 114
+      Script: {instanceID: 14514}
+    - Class: 114
+      Script: {instanceID: 14524}
+    - Class: 114
+      Script: {instanceID: 14630}
+    - Class: 114
+      Script: {instanceID: 14684}
+    - Class: 114
+      Script: {instanceID: 14716}
+    - Class: 114
+      Script: {instanceID: 14730}
+    - Class: 114
+      Script: {instanceID: 14738}
+    - Class: 114
+      Script: {instanceID: 14752}
+    - Class: 114
+      Script: {instanceID: 14774}
+    - Class: 114
+      Script: {instanceID: 14782}
+    - Class: 114
+      Script: {instanceID: 14844}
+    - Class: 114
+      Script: {instanceID: 14860}
+    - Class: 114
+      Script: {instanceID: 14872}
+    - Class: 114
+      Script: {instanceID: 14992}
+    - Class: 114
+      Script: {instanceID: 15008}
+    - Class: 114
+      Script: {instanceID: 15052}
+    - Class: 114
+      Script: {instanceID: 15096}
+    - Class: 114
+      Script: {instanceID: 15100}
+    - Class: 114
+      Script: {instanceID: 15114}
+    - Class: 114
+      Script: {instanceID: 15126}
+    - Class: 114
+      Script: {instanceID: 15138}
+    - Class: 114
+      Script: {instanceID: 15162}
+    - Class: 114
+      Script: {instanceID: 15252}
+    - Class: 114
+      Script: {instanceID: 15312}
+    - Class: 114
+      Script: {instanceID: 15332}
+    - Class: 114
+      Script: {instanceID: 15350}
+    - Class: 114
+      Script: {instanceID: 15376}
+    - Class: 114
+      Script: {instanceID: 15404}
+    - Class: 114
+      Script: {instanceID: 15576}
+    - Class: 114
+      Script: {instanceID: 15614}
+    - Class: 114
+      Script: {instanceID: 15622}
+    - Class: 114
+      Script: {instanceID: 15668}
+    - Class: 114
+      Script: {instanceID: 15670}
+    - Class: 114
+      Script: {instanceID: 15682}
+    - Class: 114
+      Script: {instanceID: 15702}
+    - Class: 114
+      Script: {instanceID: 15860}
+    - Class: 114
+      Script: {instanceID: 15922}
+    - Class: 114
+      Script: {instanceID: 15934}
+    - Class: 114
+      Script: {instanceID: 15936}
+    - Class: 114
+      Script: {instanceID: 15970}
+    - Class: 114
+      Script: {instanceID: 15994}
+    - Class: 114
+      Script: {instanceID: 16006}
+    - Class: 114
+      Script: {instanceID: 16022}
+    - Class: 114
+      Script: {instanceID: 16076}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelSettingsButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncMouseTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptableSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncEventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: c42672c997f8be6b1aa86a927ebea785
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b4fc42b020df4b67385e61ff21d513cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptableDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 8705fb3a1cd9779bc31df145f9cbf9cc
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: RevealableTextPrinterPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 1c5e02133f8a53556eecb7506264cd0d
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: PingPongInputIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: AuthorImage
+  - hash:
+      serializedVersion: 2
+      Hash: 1f86486a14ab453561bf1cb958d8d508
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: LoadLoggerScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: d451041c907e28f825df1e7d5ab16150
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: CustomUI
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptableLabeledButton
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e4bf9982166ab594b013a789afaea8a7
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: RollbackUI
+  - hash:
+      serializedVersion: 2
+      Hash: 314ce7e5dbdcc7c6514254cc71369738
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: Script
+  - hash:
+      serializedVersion: 2
+      Hash: 5baed924f50d73b5df2072e4f1b1f297
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ProjectResources
+  - hash:
+      serializedVersion: 2
+      Hash: d756304af3372978434d64f150dc40c1
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: VariableInputPanel
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0ce6c3ccb4a14350c981c06b5a51966a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: MoviesConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 991221287b4717926890660c0daa9806
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: UnlockableTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: b1227a60f5f41bfe7cd60ed2deccd52a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: Snow
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TipsReturnButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncDestroyTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 1d845b2535654b2525956159b2714d86
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncRectTransformTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: cd78e0d6aff0982345059db4624e4743
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ChatMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 8dfd11197ec8b2ca0fd671a5dbccba8f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptsConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 234d407605354852c48e57df17c9a1c6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncCanvasGroupChangedTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncEnableDisableTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncUpdateSelectedTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: Animate
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptableUIBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 2d8a6e19e9c8f4b0aaf28dc28ab165c2
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: CGGalleryGridSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncSelectTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: BacklogCloseButton
+  - hash:
+      serializedVersion: 2
+      Hash: 523ce309f50d9eee6a8fc0e2f86c9c97
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: 
+    className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsReturnButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncAwakeTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5b0ca555aacd4ee84298239df3533623
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: EngineConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a499a7a49a26f526ce95078113bf3c46
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: CGViewerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncVisibleTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: b3df74b98eeb7b5ed9ae5c9810daf17b
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: BacklogPanel
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ExternalScriptsBrowserReturnButton
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: d451041c907e28f825df1e7d5ab16150
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TitleMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 87cef3c82381dc586f6772c3e27561b6
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: d451041c907e28f825df1e7d5ab16150
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 00be6065614ac1717d893e6ed0190f68
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsAutoDelaySlider
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 1103fb0758976355cdf9b7d5ce9cb7e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 63bdc2cf3273aa9bf650350f19d2af61
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelLogButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsScreenModeDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 4090112f27c37571fdbf1ca6c4a5fc07
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ManagedTextConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4090112f27c37571fdbf1ca6c4a5fc07
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: SpawnConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 1883e365b4bbfdbca62cb2ce438afc6a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: DigitalGlitch
+  - hash:
+      serializedVersion: 2
+      Hash: 24b53a84db8b87798d325fb9b4472592
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: LayeredBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 16a75f9c887cc572c79f370cadf209de
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ChoiceHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 9d6aef02c12a73dc390c689a75a831c3
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: CGGalleryGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 92c068c81d01ed4646ebbf7bf7f0eade
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: LabeledButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0b91c35d05a493117e9884980a0b5070
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: PlayScript
+  - hash:
+      serializedVersion: 2
+      Hash: 9e5046d62ce07409debcdc44d162591c
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: ShakeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 3a285fcd490b35325db87c6181fc0605
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameStateSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 422b7891d337559438aa82aeda5e6cf1
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: Rain
+  - hash:
+      serializedVersion: 2
+      Hash: 833e45bb0f1fb47d79164e93e8d301bd
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptableGridSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 4ec24a84c60b900f90b69526863324bf
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: GenericBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelHideButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TitleTipsButton
+  - hash:
+      serializedVersion: 2
+      Hash: f222c9a63759193ad95e191efb77b19a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: TextPrintersConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: f9524326b3ae4f11b6eadee749aed9ee
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ManagedTextProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: b424b4eeb810aecb0ff91c62639241e9
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteResolver
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0edeba255bdbade25edc357f1412ba38
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 81ee828ea3902681b97241715d9d62c6
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: GameSettingsPreviewPrinter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 196ab4d0453928e76d775d45a9f0287c
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: CGGalleryPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncStartTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 64e76285c0bbdd791ae3c3e20211a405
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsVoiceVolumeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: f3e4772fe9dc9aff29d8ff8c283dbd5a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TypingIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: 9e5046d62ce07409debcdc44d162591c
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: ShakeBackground
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsLanguageDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncDropTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8764c86a7e2fd3915d4786afe3f9ed55
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelTipsButton
+  - hash:
+      serializedVersion: 2
+      Hash: df1cda964f9a12816fe64aac893a48b3
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: AudioConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelQuickLoadButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsResolutionDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: d451041c907e28f825df1e7d5ab16150
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ClickThroughPanel
+  - hash:
+      serializedVersion: 2
+      Hash: b34954b7a77933e9d26f18a50eaf4e73
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ScriptNavigatorPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncCancelTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: cd8af5f85c99e277e945f57fa5858fe7
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelSkipButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncCollision2DTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: f7472f1a98ea2dd10fb2232ea077d37a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ContinueInputUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9e5046d62ce07409debcdc44d162591c
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: ShakePrinter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 56bad6006b73d0888087e08d755da85b
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: EngineVersion
+  - hash:
+      serializedVersion: 2
+      Hash: 3f1a7cfd52ee9a48425b4a19dfc40b2e
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: GetActorRenderTexture
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsSfxVolumeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 3db814e491b6d6f481a957b6ad5a46d8
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: RenderCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncAnimatorTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncDragTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncPointerEnterTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: f9c4bd9963504c727c99b1351c4db60d
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: StateConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 3bd05340349417e9ea6875a3de9e78c3
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: ShakeCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncJointTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: e6b6a397f0889934b450ae0d77563b72
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: CharactersConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: SaveLoadMenuReturnButton
+  - hash:
+      serializedVersion: 2
+      Hash: e79ab46e52214d5fd2701912bd3a3ad2
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ConfirmationPanel
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TitleExternalScriptsButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: CustomVariableGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncCollisionTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncPointerExitTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: RuntimeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f84d945e5e1ca985698660fc26e9657f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 141aaf06f12705a047594d43592813ea
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: LocalizationConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: b34954b7a77933e9d26f18a50eaf4e73
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ExternalScriptsBrowserPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncBeginDragTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncPointerDownTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 1732af0d763d553f7f5c81e0ed862e72
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: LoadingIcon
+  - hash:
+      serializedVersion: 2
+      Hash: 853f8b851f7b8ea19fe1209dda2ba9fe
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: CustomVariableTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d994ba9404021a5ca050f653d0705edd
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ToastUI
+  - hash:
+      serializedVersion: 2
+      Hash: 10777d924fbb0d95059a5ed7624cfce0
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: NavigatorPlayButton
+  - hash:
+      serializedVersion: 2
+      Hash: d51f5ce1928495e34e39e171473513d4
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: UIConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71b711096c6c32621c1d4c02310898b7
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: d275885751df911849c11d1ccded9e50
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: SceneTransitionUI
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptableScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: f64fd37da5cb89243ec68b5026d70bb8
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: CGGalleryReturnButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelQuickSaveButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f0786811516f7de8befd7a3e181e567a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 28cfb4bd305dd11c6326cc3ee7c14138
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TitleExitButton
+  - hash:
+      serializedVersion: 2
+      Hash: f0550166d771e173f9dd1128168bbb6e
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: TipsListItem
+  - hash:
+      serializedVersion: 2
+      Hash: 049d28d2dbc245878710eeaf3c553b60
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: BacklogMessage
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TitleSettingsButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncTriggerTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncTrigger2DTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 4090112f27c37571fdbf1ca6c4a5fc07
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: UnlockablesConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncPointerUpTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsFontDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsMasterVolumeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 587a67d1cb7f77840286fc531f217135
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TipsPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 8ec7199c41620bd57ed40573be176a23
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptPlayerConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 54429bf766806e8ad7cc28d4018b91f2
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameStateSlotsGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 483693ccd891fbc06e04393284389295
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsFontSizeDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: e5398b4ebf112d30e8619a4dbde40d01
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: RevealableTMProText
+  - hash:
+      serializedVersion: 2
+      Hash: d3bb3e0272737e71deb4c53be182e783
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ToastAppearance
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncPointerClickTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: NavigatorSyncButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsBgmVolumeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 6939772cb3ce775a8e8d99f332534491
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 840fcd0759d7c09ae837ba0c2494ecdd
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ResourceProviderConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncTransformChangedTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: cd8af5f85c99e277e945f57fa5858fe7
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelAutoPlayButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsSkipModeDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncLateUpdateTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: TransitionalTextureRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncFixedUpdateTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 87c3d8704eb75ff4b4f3c5c734d693ac
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ReactToAspectRatio
+  - hash:
+      serializedVersion: 2
+      Hash: 8b1d0a0b64176ea470fa0e6e156bfa5a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: DragDrop
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: cbc08fc7190335c991a10eba7dc43494
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ChoiceHandlersConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TitleNewGameButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelLoadButton
+  - hash:
+      serializedVersion: 2
+      Hash: d451041c907e28f825df1e7d5ab16150
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: LoadingPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncSubmitTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsVoiceLocaleDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f29711b5f16b91ecd983ff78c3abb23a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ChatPrinterPanel
+  - hash:
+      serializedVersion: 2
+      Hash: be88928ec4a3391d13a1987b5b6549bc
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: LayeredCharacterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelTitleButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncEndDragTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TitleCGGalleryButton
+  - hash:
+      serializedVersion: 2
+      Hash: 4e9926ab464dc1750a9c9e9e7704afed
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: RuntimeInitializer
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ControlPanelSaveButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: TitleContinueButton
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 00be6065614ac1717d893e6ed0190f68
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsMessageSpeedSlider
+  - hash:
+      serializedVersion: 2
+      Hash: cc43988daac1f6f2f6e4c72d655c312c
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: CustomVariablesConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncScrollTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d451041c907e28f825df1e7d5ab16150
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: PauseUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncInitializePotentialDragTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: ae83cb30b06cfe23052250e6f747b2bb
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: ChoiceHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ScriptableButton
+  - hash:
+      serializedVersion: 2
+      Hash: b1227a60f5f41bfe7cd60ed2deccd52a
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: SunShafts
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncMoveTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: EngineVersionText
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6bdbdf52508050f6e39b5f344dc90b
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: MovieUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: AuthorNameTMProPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 8ee42960ddcd9d81c446ca299d700422
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: SaveLoadMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 49eeeaa2eacc512fdfdbfc2348174945
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: GenericCharacterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncDeselectTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncUpdateTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: TransitionalSpriteRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9726bc46e15d44429bd38fb013657f1e
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f18e7af76ca348504d5742fd47326013
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: CameraConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 8b60a734e05fb6ebd6a75ecc7a914391
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: InputConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: ConsoleGUI
+  - hash:
+      serializedVersion: 2
+      Hash: ba7ca1d204daf274d37e40e3de642f47
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: GameSettingsGraphicsDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 6a7e29d263ec5dfc4282ce1a6a4db68c
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.FX
+    className: Blur
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: DebugInfoGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: DragDropHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 1b1b77630352f9e282e078c9b7b5aa2b
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: RevealableUIText
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: fad5ec2473da190083d8dcc294b989ec
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: BackgroundsConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UniRx.Async.dll
+    namespaceName: UniRx.Async.Triggers
+    className: AsyncParticleTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel
+    className: AudioController
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Elringus.Naninovel.Runtime.dll
+    namespaceName: Naninovel.UI
+    className: AuthorNameUIPanel
+  platform: 5
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: Q:/Arbeit/HokaBento/Spiele/KITEProject/Klickdummy_KITE/Build/Klickdummy_KITE.exe
