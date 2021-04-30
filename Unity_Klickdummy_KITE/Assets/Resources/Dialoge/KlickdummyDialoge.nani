@@ -1,7 +1,7 @@
 @printer KlickdummyText
 Hallo, bevor es los geht, werden vorab ein paar Infos benötigt, damit der Dialogtext personalisiert werden kann. 
 Die angegebenen Daten werden vertraulich behandelt und werden nur lokal auf deinem Gerät gespeichert.
-Wenn du willst, kannst du die Felder auch freilassen.
+Wenn du willst, kannst du auch die Standardwerte in den Feldern lassen.
 
 @input PlayerFirstName summary:"Vorname" value:"Erika"
 @stop
@@ -26,7 +26,7 @@ Wenn du willst, kannst du die Felder auch freilassen.
 @showPrinter KlickdummyText
 @back Intro_Klickdummy id:Intro_Klickdummy
 Intro: In diesem Gebäude wirst Du mit deinem Ansprechpartner eine Unterhaltung über deine Geschäftsidee führen,
-Intro: um hoffentlich Informationen zu passenden Förderungen zu erhalten und mit deinem Ideenpapie zu überzeugen.
+Intro: um hoffentlich Informationen zu passenden Förderungen zu erhalten und mit deinem Ideenpapier zu überzeugen.
 
 @back Office_Klickdummy.Crossfade id:Office_Klickdummy
 
@@ -77,7 +77,7 @@ Intro: um hoffentlich Informationen zu passenden Förderungen zu erhalten und mi
 ;----------------------------------------------------------
 # mainDialogue
 {MaleChar}: Sie haben mir ja bereits Ihren vorläufigen Businessplan zugeschickt und er liest sich auch sehr gut.
-{MaleChar}: Könnten Sie mir dennoch in 2 - 3 Sätzen Ihre Gründungsidee pitchen?
+{MaleChar}: Könnten Sie mir dennoch in zwei bis drei Sätzen Ihre Gründungsidee pitchen?
 {PlayerFirstName}: Gerne. Also meine Idee ist {PlayerBusinessIdea}. Das Unternehmen soll den Namen {PlayerBusinessName} tragen. Ziel ist es {PlayerBusinessGoal}.
 
 {MaleChar}: Das hört sich nach einer sehr innovativen Idee an.
@@ -85,15 +85,15 @@ Intro: um hoffentlich Informationen zu passenden Förderungen zu erhalten und mi
 {MaleChar}: Ich halte eine Förderung für gut möglich.
 {MaleChar}: Allerdings ist es natürlich den Förderern wichtig, dass das Unternehmen über lange Zeit besteht und Geld einbringt.
 {MaleChar}: Da es in der Vergangenheit schon vorkam, dass ein Unternehmen wegen Kindern aufgegeben werden musste,
-{MaleChar}: würde es mich interessieren, wie es bei Ihnen mit dem Kinderwunsch bzw. mit dem Familienstand steht.
+{MaleChar}: würde es mich interessieren, wie es bei Ihnen mit dem Kinderwunsch beziehungsweise mit dem Familienstand steht.
 @char MaleCharacter.Neutral
 
 ;------------Popup mit Erklärung einfügen
 @showUI PopUp
 @printer PopupPrinter
 Analyse: Wie fühlst du dich bei dem Gespräch bis jetzt?
-@choice "Ermutigt" goto:.analysis_encouraged
 @choice "Verärgert" goto:.analysis_upset
+@choice "Ermutigt" goto:.analysis_encouraged
 @choice "Nervös" goto:.analysis_nervous
 @choice "Ängstlich" goto:.analysis_scared
 @stop
@@ -120,7 +120,7 @@ Analyse: Dieses Gefühl ist vollkommen normal, ein Unternehmen zu gründen ist e
 @char MaleCharacter.Talking
 ;------------Popup Ende
 
-{MaleChar}: würde es mich interessieren, wie es bei Ihnen mit dem Kinderwunsch bzw. mit dem Familienstand steht.
+{MaleChar}: Da es in der Vergangenheit schon vorkam, dass ein Unternehmen wegen Kindern aufgegeben werden musste, würde es mich interessieren, wie es bei Ihnen mit dem Kinderwunsch bzw. mit dem Familienstand steht.
 @choice "Ich habe bereits Kinder, aber es ist für mich kein Problem ein Unternehmen zu führen." goto:.children
 @choice "Ich habe noch keine Kinder und dies ist für mich die nächste Zeit auch nicht geplant." goto:.noChildren
 @choice "Meinen Kinderwunsch habe ich bereits bei der Unternehmensplanung mit bedacht." goto:.childDesire
@@ -213,8 +213,8 @@ Analyse: Dieses Gefühl ist vollkommen normal, ein Unternehmen zu gründen ist e
 ;-------------------------------End of Dialogue
 # endDialogue
 @char MaleCharacter.Talking
-{MaleChar}: Ich habe bereits eine paar Förderungen herausgesucht, die zu Ihrer Gründungsidee passen würden.
-{MaleChar}: Ich kann Ihnen die Kontaktdaten geben. Wenn Sie wollen, können wir ein Termin für ein weiteres Gespräch ausmachen.
+{MaleChar}: Ich habe bereits ein paar Förderungen herausgesucht, die zu Ihrer Gründungsidee passen würden.
+{MaleChar}: Ich kann Ihnen die Kontaktdaten geben. Wenn Sie wollen, können wir einen weiteren Termin für ein zweites Gespräch vereinbaren.
 @hidePrinter
 @showUI Map
 @bgm BGM_Map volume:0.5 loop:true
