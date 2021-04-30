@@ -115,8 +115,6 @@ MonoBehaviour:
   charsSfx:
   - Characters: adgjl
     SfxName: TippingSound1
-  - Characters: qetuo
-    SfxName: TippingSound2
   charsCommands: []
   onAuthorChanged:
     m_PersistentCalls:
