@@ -15,7 +15,7 @@ MonoBehaviour:
   DefaultEasing: 0
   AutoShowOnModify: 0
   SceneOrigin: {x: 0.5, y: 0}
-  ZOffset: 0
+  ZOffset: 2
   ZStep: 0
   DefaultPrinterId: Dialogue
   DefaultBaseRevealSpeed: 0.5
@@ -65,6 +65,7 @@ MonoBehaviour:
     - TMProWide
     - TMProBubble
     - KlickdummyText
+    - PopupPrinter
     metas:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -330,13 +331,42 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: TextPrinters
+        PathPrefix: Resources/Printers
         ProviderTypes:
         - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       guid: a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+      customData:
+        id: 0
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      CorrectRenderAspect: 1
+      AutoReset: 1
+      AutoDefault: 1
+      AutoWait: 1
+      AutoLineBreak: 0
+      AddToBacklog: 1
+      SplitBacklogMessages: 0
+      StopVoice: 0
+      ChangeVisibilityDuration: 0.3
+      PrintFrameDelay: 1
+    - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Resources/Printers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 322f4a04-bbc4-452a-a92f-a0fe385dccda
       customData:
         id: 0
       Pivot: {x: 0.5, y: 0.5}

@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PredefinedVariables:
   - name: PlayerFirstName
-    value: 
+    value: '"FirstName"'
   - name: PlayerName
-    value: 
+    value: '"LastName"'
   - name: PlayerBusinessName
-    value: 
+    value: '"BusinessName"'
   - name: PlayerBusinessIdea
-    value: 
+    value: '"BusinessIdea"'
   - name: PlayerBusinessGoal
-    value: 
+    value: '"BusinessGoal"'
   - name: MaleChar
-    value: Herr Mayer
+    value: '"Herr Mayer"'

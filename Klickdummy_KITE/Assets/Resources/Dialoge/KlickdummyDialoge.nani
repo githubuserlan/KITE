@@ -1,6 +1,8 @@
+@printer KlickdummyText
 Hallo, bevor es los geht, werden vorab ein paar Infos benötigt, damit der Dialogtext personalisiert werden kann. 
 Die angegebenen Daten werden vertraulich behandelt und werden nur lokal auf deinem Gerät gespeichert.
 Wenn du willst, kannst du die Felder auch freilassen.
+
 @input PlayerFirstName summary:"Vorname" value:"Erika"
 @stop
 @input PlayerName summary:"Nachname" value:"Musterfrau"
@@ -13,11 +15,18 @@ Wenn du willst, kannst du die Felder auch freilassen.
 @stop
 @set MaleChar="Herr Mayer"
 
+@showUI Map
+@bgm BGM_Map volume:0.5 loop:true
+@hidePrinter
+@stop
 
+# startDialogue
+@hideUI Map
+@stopBgm BGM_Map
+@showPrinter KlickdummyText
 @back Intro_Klickdummy id:Intro_Klickdummy
-Intro: Lorem Ipsum Bla Bla Bla
-Intro: Bla Bla Test 
-Intro: Test Bla Lorem Ipsum
+Intro: In diesem Gebäude wirst Du mit deinem Ansprechpartner eine Unterhaltung über deine Geschäftsidee führen,
+Intro: um hoffentlich Informationen zu passenden Förderungen zu erhalten und mit deinem Ideenpapie zu überzeugen.
 
 @back Office_Klickdummy.Crossfade id:Office_Klickdummy
 
@@ -73,17 +82,45 @@ Intro: Test Bla Lorem Ipsum
 
 {MaleChar}: Das hört sich nach einer sehr innovativen Idee an.
 {MaleChar}: Und Sie haben in Ihren Papieren gut herausgearbeitet, wie Sie damit einen Profit erzielen können.
-{MaleChar}: Ich halte eine Förderung für gut möglich,
-{MaleChar}: allerdings ist es natürlich den Förderern wichtig, dass das Unternehmen über lange Zeit besteht und Geld einbringt.
+{MaleChar}: Ich halte eine Förderung für gut möglich.
+{MaleChar}: Allerdings ist es natürlich den Förderern wichtig, dass das Unternehmen über lange Zeit besteht und Geld einbringt.
 {MaleChar}: Da es in der Vergangenheit schon vorkam, dass ein Unternehmen wegen Kindern aufgegeben werden musste,
 {MaleChar}: würde es mich interessieren, wie es bei Ihnen mit dem Kinderwunsch bzw. mit dem Familienstand steht.
+@char MaleCharacter.Neutral
 
 ;------------Popup mit Erklärung einfügen
-;@showUI PopUp
-;@char FemaleCharacter.Neutral
-;@stop
+@showUI PopUp
+@printer PopupPrinter
+Analyse: Wie fühlst du dich bei dem Gespräch bis jetzt?
+@choice "Ermutigt" goto:.analysis_encouraged
+@choice "Verärgert" goto:.analysis_upset
+@choice "Nervös" goto:.analysis_nervous
+@choice "Ängstlich" goto:.analysis_scared
+@stop
+
+# analysis_encouraged
+Analyse: Deine Idee scheint überzeugt zu haben, also ist ein ermutigtes Gefühl durchaus angemessen! Du hast schließlich die Fakten über deine Geschäftsidee im Kopf und weißt, was du damit erreichen willst.
+@goto .mainDialogue2
+
+# analysis_upset
+Analyse: Auch heutzutage wird man manchmal bei Gesprächen zu einer Förderung immer noch mit Sexismus konfrontiert. Fragen wie diese hier beruhen teilweise auch unbewusst auf der Annahme, dass Frauen weniger leisten können, wenn sie eine Familie haben oder mit ihren Geschäftsideen weniger Erfolg haben als Männer. Tatsächlich ist es aber so, dass von Frauen geführte Start-ups und Unternehmen besser performen als die von Männern. 
+@goto .mainDialogue2
+
+# analysis_nervous
+Analyse: In dieser Situation nervös zu sein ist verständlich - Du musst schließlich deine eigene Geschäftsidee erklären und weißt nicht, ob sie positiv aufgenommen wird.
+@goto .mainDialogue2
+
+# analysis_scared
+Analyse: Dieses Gefühl ist vollkommen normal, ein Unternehmen zu gründen ist ein großer Schritt und die Geschäftsidee einer fremden Person vorzustellen ohne zu wissen, wie sie reagiert ist nervenaufreibend.
+@goto .mainDialogue2
+
+# mainDialogue2
+@hideUI PopUp
+@printer KlickdummyText
+@char MaleCharacter.Talking
 ;------------Popup Ende
 
+{MaleChar}: würde es mich interessieren, wie es bei Ihnen mit dem Kinderwunsch bzw. mit dem Familienstand steht.
 @choice "Ich habe bereits Kinder, aber es ist für mich kein Problem ein Unternehmen zu führen." goto:.children
 @choice "Ich habe noch keine Kinder und dies ist für mich die nächste Zeit auch nicht geplant." goto:.noChildren
 @choice "Meinen Kinderwunsch habe ich bereits bei der Unternehmensplanung mit bedacht." goto:.childDesire
@@ -118,7 +155,7 @@ Intro: Test Bla Lorem Ipsum
 @goto .reaction_neutral if:randomText="rejecting"
 
 # inappropriatedQuestion
-@char FemaleCharacter.Talking
+@char FemaleCharacter.Angry
 @char MaleCharacter.Neutral
 {PlayerFirstName}: Ich finde diese Frage ungerechtfertigt und unpassend. Hätten Sie sie auch einem Mann gestellt?
 @set randomText=Random("sorry1","sorry2","explaining")
@@ -127,7 +164,7 @@ Intro: Test Bla Lorem Ipsum
 @goto .reaction_explaining if:randomText="explaining"
 
 # noAnswer
-@char FemaleCharacter.Talking
+@char FemaleCharacter.Angry
 @char MaleCharacter.Neutral
 {PlayerFirstName}: Ich sehe keinen Grund, diese Frage beantworten zu müssen.
 @set randomText=Random("sorry1","sorry2")
@@ -177,3 +214,12 @@ Intro: Test Bla Lorem Ipsum
 # endDialogue
 @char MaleCharacter.Talking
 {MaleChar}: Ich habe bereits eine paar Förderungen herausgesucht, die zu Ihrer Gründungsidee passen würden.
+{MaleChar}: Ich kann Ihnen die Kontaktdaten geben. Wenn Sie wollen, können wir ein Termin für ein weiteres Gespräch ausmachen.
+@hidePrinter
+@showUI Map
+@bgm BGM_Map volume:0.5 loop:true
+@stop
+
+# endKlickdummy
+@printer KlickdummyText
+Der Klickdummy ist nun beendet und kann geschlossen werden. Vielen Dank für das Testen.

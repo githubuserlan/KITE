@@ -53,7 +53,7 @@ MonoBehaviour:
     HighlightDuration: 0.35
     HighlightEasing: 1
     MessageSound: 
-    ClipMessageSound: 1
+    ClipMessageSound: 0
     VoiceSource: {fileID: 0}
     LinkedPrinter: 
     Poses: []

@@ -156,12 +156,15 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: Map
+      pathPrefix: UI
+      guid: 716a68056867112429600d1e06742954
     - name: PopUp
       pathPrefix: UI
-      guid: 2a81590638afc0b4c90900f13988477a
+      guid: 63eb6ce2962b6214881d95dea77508b0
   - Id: Scripts
     Resources:
-    - name: TestScript
+    - name: KlickdummyDialoge
       pathPrefix: Scripts
       guid: b154d46dbe579cc49be712fd33cf5bd7
   - Id: Characters/52ecae86-9ad7-4a3c-b232-6af846b2cf5e
@@ -171,7 +174,7 @@ MonoBehaviour:
       guid: ced959041a41c9c4a8565357131895ea
   - Id: TextPrinters/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
     Resources:
-    - name: Test
+    - name: KlickdummyText
       pathPrefix: TextPrinters
       guid: 4e715b20637c67c45a9f28763428a0d1
   - Id: G/52ecae86-9ad7-4a3c-b232-6af846b2cf5e
@@ -200,6 +203,9 @@ MonoBehaviour:
     - name: Neutral
       pathPrefix: GameAssets/FemaleCharacter
       guid: d68517df900d95840a6c1f8b1bc0dfc7
+    - name: Angry
+      pathPrefix: GameAssets/FemaleCharacter
+      guid: aa6df23d698e8a04aa04b6932209fdd7
   - Id: Characters/2d0b228d-56a2-4a92-93be-fc5e37c30ba5
     Resources:
     - name: Talking
@@ -296,3 +302,132 @@ MonoBehaviour:
     - name: Surprised
       pathPrefix: GameAssets/MaleCharacter
       guid: 1961a216a3e9c00408c327f0e788fbcd
+  - Id: TextPrinters/a3f9407c-475a-4b56-9bd3-3914875cec3e
+    Resources:
+    - name: PopupPrinter
+      pathPrefix: TextPrinters
+      guid: 5534807dcc1ab274d92f4140bbdd8887
+  - Id: R/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: R
+      guid: 
+  - Id: Re/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Re
+      guid: 
+  - Id: Res/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Res
+      guid: 
+  - Id: Reso/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Reso
+      guid: 
+  - Id: Resou/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resou
+      guid: 
+  - Id: Resour/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resour
+      guid: 
+  - Id: Resourc/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resourc
+      guid: 
+  - Id: Resource/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resource
+      guid: 
+  - Id: Resources/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources
+      guid: 
+  - Id: Resources//a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/
+      guid: 
+  - Id: Resources/P/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/P
+      guid: 
+  - Id: Resources/Pr/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/Pr
+      guid: 
+  - Id: Resources/Pri/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/Pri
+      guid: 
+  - Id: Resources/Prin/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/Prin
+      guid: 
+  - Id: Resources/Print/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/Print
+      guid: 
+  - Id: Resources/Printe/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/Printe
+      guid: 
+  - Id: Resources/Printer/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/Printer
+      guid: 
+  - Id: Resources/Printers/a0a3afb2-c9f2-4f0b-9864-760d1a070acb
+    Resources:
+    - name: KlickdummyText
+      pathPrefix: Resources/Printers
+      guid: 4e715b20637c67c45a9f28763428a0d1
+  - Id: TextPrinters/322f4a04-bbc4-452a-a92f-a0fe385dccda
+    Resources:
+    - name: PopupPrinter
+      pathPrefix: TextPrinters
+      guid: 
+  - Id: Resources/Printers/322f4a04-bbc4-452a-a92f-a0fe385dccda
+    Resources:
+    - name: PopupPrinter
+      pathPrefix: Resources/Printers
+      guid: 1e5dd17f20063c04bb525fc6139556e1
+  - Id: Assets/Resources/Dialoge
+    Resources:
+    - name: KlickdummyDialoge
+      pathPrefix: Assets/Resources/Dialoge
+      guid: b154d46dbe579cc49be712fd33cf5bd7
+  - Id: Audio
+    Resources:
+    - name: BGM_Map
+      pathPrefix: Audio
+      guid: d92b91e370e70bd4aa42a39cc765b5c3
+    - name: TippingSound2
+      pathPrefix: Audio
+      guid: cba35aede51003d49bddd70a9452080c
+    - name: TippingSound1
+      pathPrefix: Audio
+      guid: 2028054d4f37c294ea857b6a8902ed5d
+  - Id: Resources/UI
+    Resources:
+    - name: Map
+      pathPrefix: Resources/UI
+      guid: 592dc208da2058542a389002f939ae15
+    - name: PopUp
+      pathPrefix: Resources/UI
+      guid: 2a81590638afc0b4c90900f13988477a

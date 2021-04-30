@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 114653316575572746}
   - component: {fileID: 114172372010645744}
   m_Layer: 5
-  m_Name: Test
+  m_Name: KlickdummyText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!114 &114943319459938548
 MonoBehaviour:
@@ -111,8 +111,12 @@ MonoBehaviour:
   positionIndicatorOverText: 1
   appearances: []
   revealSfx: 
-  clipRevealSfx: 1
-  charsSfx: []
+  clipRevealSfx: 0
+  charsSfx:
+  - Characters: adgjl
+    SfxName: TippingSound1
+  - Characters: qetuo
+    SfxName: TippingSound2
   charsCommands: []
   onAuthorChanged:
     m_PersistentCalls:
@@ -346,7 +350,7 @@ MonoBehaviour:
     euismod tellus at iaculis volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing
     elit. Nunc mollis vienean vitae ipsum in est lobortis vulputate a blandit ipsum. '
   revealFadeWidth: 100
-  slideClipRect: 1
+  slideClipRect: 0
   italicSlantAngle: 10
 --- !u!114 &245865972693072711
 MonoBehaviour:
